@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/uuid-checker/static/css/main.392ddeab.css",
+    "main.js": "/uuid-checker/static/js/main.6461338a.js",
+    "static/js/453.2b1445b8.chunk.js": "/uuid-checker/static/js/453.2b1445b8.chunk.js",
+    "static/media/gear-load.gif": "/uuid-checker/static/media/gear-load.b2923b2a2bd772fef26c.gif",
+    "index.html": "/uuid-checker/index.html",
+    "main.392ddeab.css.map": "/uuid-checker/static/css/main.392ddeab.css.map",
+    "main.6461338a.js.map": "/uuid-checker/static/js/main.6461338a.js.map",
+    "453.2b1445b8.chunk.js.map": "/uuid-checker/static/js/453.2b1445b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.392ddeab.css",
+    "static/js/main.6461338a.js"
+  ]
+}
