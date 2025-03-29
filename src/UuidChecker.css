@@ -1,0 +1,82 @@
+/* Container for the entire component */
+.uuid-checker-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Form styles */
+.uuid-checker-form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.uuid-checker-form input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+/* Submit button styling */
+.uuid-checker-form button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #48bb78;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin: 0.5rem;
+}
+
+.uuid-checker-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Generate button styling */
+.uuid-checker-generate-btn {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  background-color: #3182ce;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin: 0.5rem;
+}
+
+.uuid-checker-generate-btn:hover {
+  background-color: #2b6cb0;
+}
+
+.uuid-checker-generate-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Loading indicator container */
+.uuid-checker-loading {
+  margin-top: 1rem;
+}
+
+/* Result message styling */
+.uuid-checker-result {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+}
